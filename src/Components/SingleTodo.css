@@ -1,0 +1,99 @@
+.single {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgba(28, 52, 32, 0.976);
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid #ec9a35;
+}
+
+.todo-name {
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: whitesmoke;
+    
+}
+
+.inp input {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+
+
+}
+
+.inp .btn1 {
+    background-color: #1877f2;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    margin: 25px;
+    height: 30px;
+    border: none; 
+    transition: background-color 0.3s;
+}
+
+.inp .btn1:hover {
+    background-color: #145dbf;
+    
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btns {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(28, 52, 32, 0.976);
+    
+}
+
+.edit-btn {
+    
+    color: #4cae4c;
+    
+
+}
+
+.edit-btn:hover {
+    background-color: white;
+    transform: scale(0.98);
+}
+
+.complete-btn {
+    
+    color: #ec9a35;
+}
+
+.complete-btn:hover {
+   background-color: white;
+    transform: scale(0.98);
+}
+
+.delete-btn {
+    color: red;
+    
+}
+
+.delete-btn:hover {
+   background-color: white;
+    transform: scale(0.98);
+}
